@@ -11,7 +11,7 @@ from bisect import bisect
 
 
 #creates list of dominant notes in .wav file based on dominant frequencies
-#in song-- not sequential
+#in song. List is not sequential due to fft algorithim
 def getnoteset(filename):
 	setfreqs=(16.35,17.32,18.35,19.45,20.60,21.83,23.12,24.50,25.96,27.50,29.14,30.87,
 	32.70,34.65,36.71,38.89,41.20,43.65,46.25,49.0,51.91,55.0,58.27,61.74,65.41,69.3,73.42,
